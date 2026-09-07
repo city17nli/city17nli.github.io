@@ -334,6 +334,25 @@ blockquote {
 	margin-left: auto;
 	margin-right: auto;
 }
+.pass-link {
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #ffffff;
+	background-color: #6CABDD;
+	padding: 5px 15px;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: normal;
+	transition: 0.3s;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+.pass-link:hover {
+	background-color: #1C2C5B;
+	color: #ffffff;
+	transform: translateY(-2px);
+	text-decoration: none;
+}
 @media screen and (max-width: 767px) {
 #header-container {
     margin: 0;
