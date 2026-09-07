@@ -176,6 +176,33 @@ blockquote {
 	padding: 20px;
 	margin-bottom: 25px;
 }
+.history-list dl {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 18px;
+	line-height: 1.8;
+	margin: 0;
+	padding: 10px 0;
+}
+
+.history-list dt {
+	width: 140px;
+	font-weight: bold;
+	color: #1C2C5B;
+	border-bottom: 1px dashed #ccc;
+	padding: 18px 0;
+}
+
+.history-list dd {
+	width: calc(100% - 140px);
+	margin: 0;
+	border-bottom: 1px dashed #ccc;
+	padding: 18px 0;
+}
+.history-list dt:last-of-type,
+.history-list dd:last-of-type {
+	border-bottom: none;
+}
 @media screen and (max-width: 767px) {
 #header-container {
     margin: 0;
@@ -190,13 +217,25 @@ header {
     flex-direction: column;
     gap: 15px;
   }
-  
   .global-nav ul {
     gap: 10px;
   }
   .global-nav a {
     font-size: 14px;
     padding: 6px 10px;
+  }
+  .history-list dl {
+    font-size: 16px;
+  }
+  .history-list dt {
+    width: 100%;
+    border-bottom: none;
+    padding: 15px 0 5px 0;
+  }
+  .history-list dd {
+    width: 100%;
+    border-bottom: 1px dashed #ccc;
+    padding: 0 0 15px 0;
   }
 .description {
 }
