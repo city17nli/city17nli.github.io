@@ -255,6 +255,16 @@ blockquote {
 	color: #333;
 	margin: 10px 0 0 10px;
 }
+.research-desc a {
+	color: #6CABDD;
+	text-decoration: underline;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.research-desc a:hover {
+	color: #1C2C5B;
+}
 @media screen and (max-width: 767px) {
 #header-container {
     margin: 0;
