@@ -265,6 +265,36 @@ blockquote {
 .research-desc a:hover {
 	color: #1C2C5B;
 }
+.cert-list {
+	list-style: none;
+	padding: 0;
+	margin: 15px 0 0 0;
+}
+
+.cert-list li {
+	font-size: 16px;
+	line-height: 1.8;
+	padding-left: 25px;
+	position: relative;
+	margin-bottom: 12px;
+	border-bottom: 1px dashed #ccc;
+	padding-bottom: 12px;
+	color: #333;
+}
+
+.cert-list li:last-child {
+	border-bottom: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.cert-list li::before {
+	content: "■";
+	color: #6CABDD;
+	position: absolute;
+	left: 0;
+	top: -2px;
+}
 @media screen and (max-width: 767px) {
 #header-container {
     margin: 0;
