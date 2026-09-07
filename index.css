@@ -203,6 +203,52 @@ blockquote {
 .history-list dd:last-of-type {
 	border-bottom: none;
 }
+.page-title {
+	font-size: 32px;
+	font-weight: bold;
+	color: #1C2C5B;
+	border-bottom: 3px solid #6CABDD;
+	padding-bottom: 10px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.grade-section {
+	background-color: #EBF4FA;
+	border: 2px solid #6CABDD;
+	border-radius: 12px;
+	padding: 30px 20px 20px 20px;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.grade-label {
+	background-color: #1C2C5B;
+	color: #ffffff;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 5px 25px;
+	border-radius: 8px;
+	margin: 0;
+	position: absolute;
+	top: -18px;
+	left: 20px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.research-title {
+	font-size: 18px;
+	color: #333;
+	border-left: 5px solid #6CABDD;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.research-desc {
+	font-size: 16px;
+	line-height: 1.8;
+}
 @media screen and (max-width: 767px) {
 #header-container {
     margin: 0;
