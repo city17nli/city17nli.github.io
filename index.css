@@ -47,15 +47,18 @@ h1 a {
 
 .global-nav a {
 	color: #f3e6d2;
+	background-color: transparent;
+	border: 1px solid #f3e6d2;
 	text-decoration: none;
 	font-weight: bold;
-	padding: 8px 12px;
-	border-radius: 5px;
+	padding: 7px 15px;
+	border-radius: 20px;
 	transition: 0.3s;
 }
 
 .global-nav a:hover {
-	background-color: rgba(108, 171, 221, 0.3);
+	background-color: #6CABDD;
+	border-color: #6CABDD;
 	color: #ffffff;
 }
 
