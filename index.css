@@ -123,6 +123,13 @@ blockquote {
 	padding: 5px;
 	margin: 10px;
 }
+.section-box {
+	background-color: #f4f9ff;
+	border: 1px solid #d2e4f6;
+	border-radius: 8px;
+	padding: 20px;
+	margin-bottom: 25px;
+}
 @media screen and (max-width: 767px) {
 #header-container {
     margin: 0;
