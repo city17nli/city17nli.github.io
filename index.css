@@ -323,8 +323,8 @@ blockquote {
 	box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 .profile-icon {
-	width: 120px;
-	height: 120px;
+	width: 300px;
+	height: 300px;
 	border-radius: 50%;
 	object-fit: cover;
 	border: 3px solid #ffffff;
